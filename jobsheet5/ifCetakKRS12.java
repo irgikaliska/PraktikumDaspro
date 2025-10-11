@@ -14,7 +14,8 @@ public class ifCetakKRS12 {
             System.out.println("UKT payment has been verified");
             System.out.println("KRS now can be printed and you can ask the academic to sign it.");
 
-            sc.close();
+        } else {
+            System.out.println("Registration rejected. Please pay UKT first.");
         }
-    }
+    } 
 }
