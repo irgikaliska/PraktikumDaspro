@@ -18,5 +18,6 @@ public class ifCetakKRS12 {
             System.out.println("Registration rejected. Please pay UKT first.");
         }
         sc.close();
+        //tugas 1
     } 
 }
