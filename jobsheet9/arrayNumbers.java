@@ -3,16 +3,10 @@ package jobsheet9;
 public class arrayNumbers {
     public static void main(String[] args) {
         
-        int[] num  = new int[4];
+        double[] num  = {5.0,12867,7.5,2000000};
 
-        num[0] = 5;
-        num[1] = 12;
-        num[3] = 7;
-        num[3] = 20;
-
-        System.out.println(num[0]);
-        System.out.println(num[1]);
-        System.out.println(num[2]);
-        System.out.println(num[3]);
+    for (int i = 0; i <= 4; i++)
+        System.out.println(num[i]);
+        
     }
 }
