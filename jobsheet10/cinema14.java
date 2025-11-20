@@ -14,10 +14,10 @@ public class cinema14 {
         audience[3][1] = "Hana";
 
 
-        System.out.printf("%s \t %s\n", audience[0][0], audience[0][1]);
-        System.out.printf("%s \t %s\n", audience[1][0], audience[1][1]);
-        System.out.printf("%s \t %s\n", audience[2][0], audience[2][1]);
-        System.out.printf("%s \t %s\n", audience[3][0], audience[3][1]);
+        System.out.printf("%s \t %s \n", audience[0][0], audience[0][1]);
+        System.out.printf("%s \t %s \n", audience[1][0], audience[1][1]);
+        System.out.printf("%s \t %s \n", audience[2][0], audience[2][1]);
+        System.out.printf("%s \t %s \n", audience[3][0], audience[3][1]);
 
         System.out.println(audience.length);
         System.out.println(audience[0].length);
